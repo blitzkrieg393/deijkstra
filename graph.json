@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "node_name1"
+    },
+    {
+      "id": 2,
+      "name": "node_name2"
+    },
+    {
+      "id": 3,
+      "name": "node_name3"
+    },
+    {
+      "id": 4,
+      "name": "node_name4"
+    },
+    {
+      "id": 5,
+      "name": "node_name5"
+    },
+    {
+      "id": 6,
+      "name": "node_name6"
+    },
+    {
+      "id": 7,
+      "name": "node_name7"
+    }
+
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 6,
+      "weight": 2
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "weight": 3
+    },
+    {
+      "from": 1,
+      "to": 5,
+      "weight": 2
+    },
+    {
+      "from": 6,
+      "to": 3,
+      "weight": 5
+    },
+    {
+      "from": 6,
+      "to": 4,
+      "weight": 7
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "weight": 3
+    },
+    {
+      "from": 3,
+      "to": 2,
+      "weight": 1
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "weight": 3
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "weight": 1
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "weight": 1
+    },
+    {
+      "from": 4,
+      "to": 0,
+      "weight": 0
+    },
+    {
+      "from": 7,
+      "to": 0,
+      "weight": 0
+    },
+
+
+    {
+      "from": 5,
+      "to": 0,
+      "weight": 0
+    }
+  ]
+}
