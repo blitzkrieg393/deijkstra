@@ -7,9 +7,6 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-var minWeight int // минимальный вес ребра
-
-
 func main() {
 	paths := deijkstra.NewWays("graph.json")
 	httpRouter := fasthttprouter.New()
