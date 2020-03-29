@@ -8,7 +8,9 @@ import (
 )
 
 func main() {
-	paths := deijkstra.NewWays("graph.json")
+	generator := deijkstra.NewGenerator()
+	fileName := generator.Generate()
+	paths := deijkstra.New(fileName)
 	httpRouter := fasthttprouter.New()
 	httpRouter.GET("/paths/", paths.Full)
 	httpRouter.GET("/short-paths/", paths.Short)
@@ -18,5 +20,5 @@ func main() {
 	if err != nil {
 		fmt.Printf("Can't start http server: %s \n", err.Error())
 	}
-}
 
+}
